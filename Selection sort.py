@@ -4,7 +4,7 @@ def sort(list):
     # This outer loop is for check the number of elements we have  
     for i in range(5):
         minpos = i # minimum position = i
-         for j in range(i,6): # i,length of an list
+        for j in range(i,6): # i,length of an list
             if list[j] < list[minpos]:
                minpos = j
 
@@ -20,4 +20,4 @@ list = [ 52, 88, 55, 77, 2, 71] # unsorted list
 # calling the function 
 sort(list)
 
-print (list)
+print (list) # sorted list
