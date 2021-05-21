@@ -1,17 +1,17 @@
-# selection sort
+# selection sort finding max value
 #defining th function
 def sort(list):
     # This outer loop is for check the number of elements we have  
     for i in range(5):
-        minpos = i # minimum position = i
+        maxpos = i # maximum position = i
         for j in range(i,6): # i,length of an list
-            if list[j] < list[minpos]:
-               minpos = j
+            if list[j] < list[maxpos]:
+               maxpos = j
 
         # swapping
         temp = list[i]
-        list[i] = list[minpos]
-        list[minpos] = temp
+        list[i] = list[maxpos]
+        list[maxpos] = temp
 
 
          
