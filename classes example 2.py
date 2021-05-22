@@ -1,11 +1,11 @@
 # creating a class
-class pc():
+class pc:
     
-    # defining varibles with the help of __int__ methyod
+    # defining varibles with the help of __int__ method
     # self is a pointer which refer to the current object 
     def __init__(self,cpu,ram,brand): # __init__ is a special method it used intialize the variables 
-        self.cpu = cpu  # cpu variable is created
-        self.ram = ram  # ram variable is created
+        self.cpu = cpu  # cpu instance  variable is created
+        self.ram = ram  # ram instance  variable is created
         self.brand = brand # brand variable is created
 # defining the method
     def lapi(self):
