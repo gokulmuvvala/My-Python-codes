@@ -21,11 +21,19 @@ class C(A,B): #(child class)
     def feature6(self):
         print("feature6 is updated")
 
-# craeting the objects 
+# creating the objects 
 c1 = C()
 
+# calling the methods
+c1.feature1()
+c1.feature2()
+c1.feature3()
+c1.feature4()
+c1.feature5()
+c1.feature6()
 
 
 
     
 
+    

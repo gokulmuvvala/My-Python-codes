@@ -19,7 +19,7 @@ class student:
             self.brand = "DELL"
             self.ram = 16
             self.cpu = "i5"
-# crerating the objects 
+# creating the objects 
 s1 = student('Ravi kiarn',24)
 s2 = student("Gokul",30)
 
