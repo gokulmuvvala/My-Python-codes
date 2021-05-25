@@ -10,7 +10,7 @@ class pc:
 # defining the method
     def lapi(self):
         # here we need use self. because cpu,ram,brand are not global variables  
-        print("CPU   : ",self.cpu) 
+        print("CPU   : ",self.cpu) # this all are a
         print("RAM   : ",self.ram)
         print("BRAND : ",self.brand)
 
